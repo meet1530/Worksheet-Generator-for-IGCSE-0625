@@ -12,7 +12,7 @@ import re
 from datetime import datetime
 
 # Configure Gemini API (Use environment variable for security)
-genai.configure(api_key="AIzaSyD9UiWN3O-6meRw_CMceqiNlJWExmzbTsw")
+genai.configure(api_key="Add API key here")
 
 def load_syllabus_from_docx(file_path):
     syllabus = {}
@@ -117,3 +117,4 @@ def generate_worksheet(topic_number):
 # Example usage
 topic_number = "7.1"
 generate_worksheet(topic_number)
+
